@@ -30,9 +30,9 @@ const Benefits = () => {
             >
               {/* Benefit content with title, text, and call to action */}
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{item.title}</h5>  // Benefit title
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>  // Description text
-                <div className="flex items-center mt-auto">  // Call to action at the bottom
+                <h5 className="h5 mb-5">{item.title}</h5>  
+                <p className="body-2 mb-6 text-n-3">{item.text}</p> 
+                <div className="flex items-center mt-auto">  
                   <img
                     src={item.iconUrl}  // Icon for the benefit
                     width={48}
@@ -40,9 +40,9 @@ const Benefits = () => {
                     alt={item.title}  // Alt text for accessibility
                   />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more  // Action text
+                    Explore more 
                   </p>
-                  <Arrow />  // Arrow icon component for "Explore more"
+                  <Arrow /> 
                 </div>
               </div>
 
