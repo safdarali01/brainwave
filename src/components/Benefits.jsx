@@ -14,10 +14,11 @@ const Benefits = () => {
           title="Chat Smarter, Not Harder with Brainwave"
         />
 
-        <div className="flex flex-wrap gap-10 mb-10 justify-center">
+        {/* Updated the flex-wrap and added basis */}
+        <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:basis-[30%] min-w-[280px] max-w-[30%] border border-gray-300" // Added border class
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:basis-[30%] min-w-[280px] max-w-[30%]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
